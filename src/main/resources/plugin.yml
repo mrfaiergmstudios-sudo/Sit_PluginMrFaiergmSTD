@@ -1,0 +1,15 @@
+name: PlayerSitMrFaiergmPLG2
+description: $description
+prefix: PluginSit
+version: '${version}'
+
+main: org.mrfaiergm_studios.playerSitMrFaiergmPLG2.PlayerSitMrFaiergmPLG2
+api-version: '26.1'
+
+authors: [ MrFaiergm - MrFaiergm studio's ]
+website: https://t.me/mrfaiergmchanel
+
+commands:
+  sit:
+    description: "sit"
+

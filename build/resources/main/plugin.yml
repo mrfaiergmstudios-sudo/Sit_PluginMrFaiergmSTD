@@ -1,0 +1,15 @@
+name: PlayerSitMrFaiergmPLG2
+description: A Mini game Plugin Dont Touch green colors with Minecraft
+prefix: PluginSit
+version: '1.0-SNAPSHOT'
+
+main: org.mrfaiergm_studios.playerSitMrFaiergmPLG2.PlayerSitMrFaiergmPLG2
+api-version: '26.1'
+
+authors: [ MrFaiergm - MrFaiergm studio's ]
+website: https://t.me/mrfaiergmchanel
+
+commands:
+  sit:
+    description: "sit"
+
