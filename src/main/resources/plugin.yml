@@ -1,15 +1,15 @@
-name: PlayerSitMrFaiergmPLG2
-description: $description
-prefix: PluginSit
-version: '${version}'
-
-main: org.mrfaiergm_studios.playerSitMrFaiergmPLG2.PlayerSitMrFaiergmPLG2
-api-version: '26.1'
-
-authors: [ MrFaiergm - MrFaiergm studio's ]
+name: RestartCommand_MrFaiergm_SRVPLG
+version: '1.0-SNAPSHOT'
+main: org.mrfaiergm_studios.restartCommand_MrFaiergm_SRVPLG.RestartCommand_MrFaiergm_SRVPLG
+api-version: '26.2'
+authors: [ MrFaiergm ]
 website: https://t.me/mrfaiergmchanel
+description: Plugin for server management
 
 commands:
-  sit:
-    description: "sit"
-
+  pstop:
+    description: Остановить перезапуск сервера
+    permission: mrfaiergm.admin
+  prestart:
+    description: Запустить перезапуск сервера
+    permission: mrfaiergm.admin
